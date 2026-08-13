@@ -1,0 +1,22 @@
+[project]
+name = "myinsta"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AB", email = "abderrahmene.benabdelkader4@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "fastapi>=0.141.1",
+    "fastapi-users-db-sqlalchemy>=7.0.0",
+    "fastapi-users[sqlalchemy]>=15.0.5",
+    "imagekitio>=5.8.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "streamlit>=1.61.1",
+    "uvicorn[standard]>=0.52.1",
+]
+
+
